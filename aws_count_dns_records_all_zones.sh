@@ -1,0 +1,1 @@
+aws route53 list-hosted-zones --output json --query 'HostedZones[*].Id' | jq -r '.[]' | xargs -I zoneid aws route53 list-resource-record-sets --hosted-zone-id zoneid --output json --query 'length(ResourceRecordSets)' | jq -s 'add'

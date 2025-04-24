@@ -1,0 +1,1 @@
+aws route53 list-hosted-zones --query 'HostedZones[?Config.PrivateZone==`true`].Id' --output json | jq 'length'

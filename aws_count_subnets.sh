@@ -1,0 +1,1 @@
+aws ec2 describe-subnets --query 'Subnets[*].SubnetId' --output json | jq 'length'

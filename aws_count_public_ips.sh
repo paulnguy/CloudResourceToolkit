@@ -1,0 +1,1 @@
+aws ec2 describe-addresses --query 'Addresses[*].PublicIp' --output json | jq 'length'

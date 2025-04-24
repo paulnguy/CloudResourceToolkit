@@ -1,0 +1,1 @@
+aws ec2 describe-vpcs --query 'Vpcs[*].VpcId' --output json | jq 'length'

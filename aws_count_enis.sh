@@ -1,0 +1,1 @@
+aws ec2 describe-network-interfaces --query 'NetworkInterfaces[*].NetworkInterfaceId' --output json | jq 'length'
