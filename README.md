@@ -4,30 +4,33 @@ This repository contains a collection of shell scripts designed to automate the 
 
 ## Content
 
-Overview
-Prerequisites
-Installation
-Usage
-Scripts
-  AWS Scripts
-  GCP Scripts
-  Azure Scripts
+- Overview
+- Prerequisites
+- Installation
+- Usage
+- Scripts
+-  AWS Scripts
+-  GCP Scripts
+-  Azure Scripts
 
 ## Prerequisite
 
 Before using these scripts, ensure you have the following installed and configured:
 
-AWS CLI: Installation Guide
-GCP CLI (gcloud): Installation Guide
-Azure CLI: Installation Guide
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html): Installation Guide
+- [GCP CLI](https://cloud.google.com/sdk/docs/install) (gcloud): Installation Guide
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli): Installation Guide
+
 Additionally, ensure you have the necessary credentials and permissions to access the cloud resources in your respective environments.
 
 ## Installation
 
 Clone the repository to your local machine:
 
+```bash
 git clone https://github.com/your-username/CloudResourceInventoryScripts.git
 cd CloudResourceInventoryScripts
+```
 
 ## Usage
 
@@ -35,12 +38,16 @@ Each script is designed to be run from the command line. Make sure to update any
 
 Make the script executable:
 
+```bash
 git clone https://github.com/your-username/CloudResourceInventoryScripts.git
 cd CloudResourceInventoryScripts
+```bash
 
 Run the script:
 
+```bash
 ./script-name.sh
+```bash
 
 ## Scripts
 
