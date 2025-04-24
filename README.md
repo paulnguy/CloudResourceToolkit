@@ -61,31 +61,31 @@ AWS_REGION=your-region
 ## Scripts
 
 AWS Scripts
-Count VPCs: [aws_count_vpcs.sh](aws_count_vpcs.sh)
-Count Subnets: [aws_count_subnets.sh](aws_count_subnets.sh)
-Count Network Interfaces: [aws_count_enis.sh](aws_count_enis.sh)
-Count EC2 Instances: [aws_count_ec2_instances.sh](aws_count_ec2_instances.sh)
-Count Public IPs: [aws_count_public_ips.sh](aws_count_public_ips.sh)
-Count Private IPs: [aws_count_private_ips.sh](aws_count_private_ips.sh)
-Count DNS Public Hosted Zones: [aws_count_dns_public_zones.sh](aws_count_dns_public_zones.sh)
-Count DNS Private Hosted Zones: [aws_count_dns_private_zones.sh](aws_count_dns_private_zones.sh)
+- Count VPCs: [aws_count_vpcs.sh](aws_count_vpcs.sh)
+- Count Subnets: [aws_count_subnets.sh](aws_count_subnets.sh)
+- Count Network Interfaces: [aws_count_enis.sh](aws_count_enis.sh)
+- Count EC2 Instances: [aws_count_ec2_instances.sh](aws_count_ec2_instances.sh)
+- Count Public IPs: [aws_count_public_ips.sh](aws_count_public_ips.sh)
+- Count Private IPs: [aws_count_private_ips.sh](aws_count_private_ips.sh)
+- Count DNS Public Hosted Zones: [aws_count_dns_public_zones.sh](aws_count_dns_public_zones.sh)
+- Count DNS Private Hosted Zones: [aws_count_dns_private_zones.sh](aws_count_dns_private_zones.sh)
 
 
 GCP Scripts
-Count Instances (all projects): [gcp_count_instances_allprojects.sh](gcp_count_instances_allprojects.sh)
-Count External IPs (all projects): [gcp_count_external_ips_allprojects.sh](gcp_count_external_ips_allprojects.sh)
-Count Internal IPs (all projects): [gcp_count_internal_ips_allprojects.sh](gcp_count_internal_ips_allprojects.sh)
-Count External & Internal IPs (all projects): [gcp_count_ext_int_ips_allprojects.sh](gcp_count_ext_int_ips_allprojects.sh)
-Count VPCs (all projects): [gcp_count_vpc_allprojects.sh](gcp_count_vpc_allprojects.sh)
-Count DNS Zones: gcp_count_dns_zones.sh
+- Count Instances (all projects): [gcp_count_instances_allprojects.sh](gcp_count_instances_allprojects.sh)
+- Count External IPs (all projects): [gcp_count_external_ips_allprojects.sh](gcp_count_external_ips_allprojects.sh)
+- Count Internal IPs (all projects): [gcp_count_internal_ips_allprojects.sh](gcp_count_internal_ips_allprojects.sh)
+- Count External & Internal IPs (all projects): [gcp_count_ext_int_ips_allprojects.sh](gcp_count_ext_int_ips_allprojects.sh)
+- Count VPCs (all projects): [gcp_count_vpc_allprojects.sh](gcp_count_vpc_allprojects.sh)
+- Count DNS Zones: gcp_count_dns_zones.sh
 
 Azure Scripts
-Count VMs: azure_count_vms.sh
-Count Public IPs: azure_count_public_ips.sh
-Count Private IPs: azure_count_private_ips.sh
-Count VNets: azure_count_vnets.sh
-Count Subnets: azure_count_subnets.sh
-Count DNS Zones: azure_count_dns_zones.sh
+- Count VMs: azure_count_vms.sh
+- Count Public IPs: azure_count_public_ips.sh
+- Count Private IPs: azure_count_private_ips.sh
+- Count VNets: azure_count_vnets.sh
+- Count Subnets: azure_count_subnets.sh
+- Count DNS Zones: azure_count_dns_zones.sh
 
 ## Contributing
 
