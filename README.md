@@ -60,7 +60,7 @@ AWS_REGION=your-region
 
 ## Scripts
 
-AWS Scripts
+AWS
 - Count VPCs: [aws_count_vpcs.sh](aws_count_vpcs.sh)
 - Count Subnets: [aws_count_subnets.sh](aws_count_subnets.sh)
 - Count Network Interfaces: [aws_count_enis.sh](aws_count_enis.sh)
@@ -71,14 +71,14 @@ AWS Scripts
 - Count DNS Private Hosted Zones: [aws_count_dns_private_zones.sh](aws_count_dns_private_zones.sh)
 
 
-GCP Scripts
+GCP
 - Count Instances (all projects): [gcp_count_instances_allprojects.sh](gcp_count_instances_allprojects.sh)
 - Count External IPs (all projects): [gcp_count_external_ips_allprojects.sh](gcp_count_external_ips_allprojects.sh)
 - Count Internal IPs (all projects): [gcp_count_internal_ips_allprojects.sh](gcp_count_internal_ips_allprojects.sh)
 - Count External & Internal IPs (all projects): [gcp_count_ext_int_ips_allprojects.sh](gcp_count_ext_int_ips_allprojects.sh)
 - Count VPCs (all projects): [gcp_count_vpc_allprojects.sh](gcp_count_vpc_allprojects.sh)
 
-Azure Scripts
+Azure
 - Count VMs (all subscriptions): [az_count_vm_allsubs.sh](az_count_vm_allsubs.sh)
 - Count Private IPs (all subscriptions): [az_count_private_ips_allsubs.sh](az_count_private_ips_allsubs.sh)
 - Count Public IPs (all subscriptions): [az_count_public_ips_allsubs.sh](az_count_public_ips_allsubs.sh)
