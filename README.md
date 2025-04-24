@@ -79,12 +79,13 @@ GCP Scripts
 - Count VPCs (all projects): [gcp_count_vpc_allprojects.sh](gcp_count_vpc_allprojects.sh)
 
 Azure Scripts
-- Count VMs: azure_count_vms.sh
-- Count Public IPs: azure_count_public_ips.sh
-- Count Private IPs: azure_count_private_ips.sh
-- Count VNets: azure_count_vnets.sh
-- Count Subnets: azure_count_subnets.sh
-- Count DNS Zones: azure_count_dns_zones.sh
+- Count VMs (all subscriptions): [az_count_vm_allsubs.sh](az_count_vm_allsubs.sh)
+- Count Private IPs (all subscriptions): [az_count_private_ips_allsubs.sh](az_count_private_ips_allsubs.sh)
+- Count Public IPs (all subscriptions): [az_count_public_ips_allsubs.sh](az_count_public_ips_allsubs.sh)
+- Count Public and Private IPs (all subscriptions): [az_count_pub_private_ips_allsubs.sh](az_count_pub_private_ips_allsubs.sh)
+- Count VNets (all subscriptions): [az_count_vnet_allsubs.sh](az_count_vnet_allsubs.sh)
+- Count DNS Zones per subscription: [az_count_allzones_selectsub.sh](az_count_allzones_selectsub.sh)
+- Count DNS Zones (all subscriptions)s: [azure_count_dns_zones.sh](az_count_allzones_allsubs.sh)
 
 ## Contributing
 
