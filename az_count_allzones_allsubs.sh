@@ -21,6 +21,6 @@ for tenant in "${tenants[@]}"; do
   total_private_dns_count=$((total_private_dns_count + private_dns_count))
 done
 
-echo "Total public DNS zones across all tenants: $total_public_dns_count"
-echo "Total private DNS zones across all tenants: $total_private_dns_count"
+echo "Total public DNS zones across all subscriptions: $total_public_dns_count"
+echo "Total private DNS zones across all subscriptions: $total_private_dns_count"
 

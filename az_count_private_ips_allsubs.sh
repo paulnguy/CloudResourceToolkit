@@ -18,4 +18,4 @@ for tenant in "${tenants[@]}"; do
   total_private_ip_count=$((total_private_ip_count + private_ip_count))
 done
 
-echo "Total private IP addresses across all tenants: $total_private_ip_count"
+echo "Total private IP addresses across all subscriptions: $total_private_ip_count"

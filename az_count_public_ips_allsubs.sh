@@ -16,4 +16,4 @@ for tenant in "${tenants[@]}"; do
   # Add to total count
   total_count=$((total_count + count))
 done
-echo "Total public IPs across all tenants: $total_count"
+echo "Total public IPs across all subscriptions: $total_count"
