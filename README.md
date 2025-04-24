@@ -77,7 +77,6 @@ GCP Scripts
 - Count Internal IPs (all projects): [gcp_count_internal_ips_allprojects.sh](gcp_count_internal_ips_allprojects.sh)
 - Count External & Internal IPs (all projects): [gcp_count_ext_int_ips_allprojects.sh](gcp_count_ext_int_ips_allprojects.sh)
 - Count VPCs (all projects): [gcp_count_vpc_allprojects.sh](gcp_count_vpc_allprojects.sh)
-- Count DNS Zones: gcp_count_dns_zones.sh
 
 Azure Scripts
 - Count VMs: azure_count_vms.sh
